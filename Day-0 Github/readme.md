@@ -24,10 +24,28 @@
 
 -git diff --cached:-will tell you about the difference between previous and current commit.
 
-###git log:- -it is used to display the commit history of a Git repository. -When you run this command, it shows a list of commits in reverse chronological order (the most recent commits appear first) -This will show you information about each commit, including the commit hash, author, date, and commit message. -we can use git log --oneline, which displays each commit on one line.
+###git log:- 
+ -it is used to display the commit history of a Git repository.
+ 
+ -When you run this command, it shows a list of commits in reverse chronological order (the most recent commits appear first)
+ 
+ -This will show you information about each commit, including the commit hash, author, date, and commit message. -we can use git log --oneline, which displays each commit on one line.
 
-###git checkout commitNumber:- -If you want to move to a specific commit in Git, you can use the git checkout command followed by the commit hash or reference. -when you do this, you will be in a "detached HEAD" state, meaning you won't be on any branch. -detached HEAD state means any changes you make won't belong to any branch. If you want to make changes based on that commit, you might want to create a new branch: git checkout -b newBranchName commitNumber
+###git checkout commitNumber:- 
+-If you want to move to a specific commit in Git, you can use the git checkout command followed by the commit hash or reference. 
+
+-when you do this, you will be in a "detached HEAD" state, meaning you won't be on any branch. 
+
+-detached HEAD state means any changes you make won't belong to any branch. If you want to make changes based on that commit, you might want to create a new branch: 
+
+git checkout -b newBranchName commitNumber
 
 ##Branching
 
--main/master is the default branch -we can use one branch at a time (active branch) -commands work on active branch. -HEAD also points to active branch. -HEAD is a special pointer or reference that represents the latest commit in the currently checked-out branch.
+-main/master is the default branch 
+
+-we can use one branch at a time (active branch) 
+
+-commands work on active branch. -HEAD also points to active branch.
+
+-HEAD is a special pointer or reference that represents the latest commit in the currently checked-out branch.
